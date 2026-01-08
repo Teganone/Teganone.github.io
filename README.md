@@ -84,4 +84,4 @@ quarto preview
 ## 许可
 
 MIT License
-# Teganone.githup.io
+# Teganone.github.io
