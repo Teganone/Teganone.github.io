@@ -2,7 +2,7 @@
 
 **Professional Experience**
 
-- *2024.11 - Present*, **Full-Stack Software Engineer**, [SAP](https://www.sap.com/) Commerce Cloud, Shanghai
+- *2024.11 - Present*, **Full-Stack Software Engineer**, [SAP](https://www.sap.com/), Shanghai
 - *2023.09 - 2024.02*, Backend Software Engineering Intern, [Poizon](https://www.poizon.com/) International Technology Department, Shanghai
 
 **Research Experience**

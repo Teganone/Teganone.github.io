@@ -48,7 +48,6 @@
 .author__avatar img {
   max-width: 175px;
   min-width: 75px;
-  border-radius: 50%;
 }
 
 @media (min-width: 925px) {
