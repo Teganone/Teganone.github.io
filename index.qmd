@@ -4,6 +4,8 @@ page-layout: custom
 section-divs: false
 toc: false
 css: styles/main.css
+include-after-body:
+  - _includes/search.html
 ---
 
 ::: {.grid}

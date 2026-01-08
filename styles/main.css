@@ -19,9 +19,9 @@
 .profile-box {
   display: flex;
   justify-content: flex-start;
-  align-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 10px;
 }
 
 @media (min-width: 925px) {
@@ -32,9 +32,14 @@
 
 /* 头像 */
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 75px;
+  flex-shrink: 0;
+  width: 120px;
+}
+
+@media (min-width: 768px) {
+  .author__avatar {
+    width: 150px;
+  }
 }
 
 @media (min-width: 925px) {
@@ -46,8 +51,8 @@
 }
 
 .author__avatar img {
+  width: 100%;
   max-width: 175px;
-  min-width: 75px;
 }
 
 @media (min-width: 925px) {
@@ -59,11 +64,10 @@
 
 /* 作者信息 */
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 10px;
-  min-width: 120px;
-  line-height: 1;
+  flex: 1;
+  min-width: 0;
+  padding-left: 15px;
+  line-height: 1.3;
 }
 
 @media (min-width: 925px) {
@@ -113,8 +117,7 @@
 /* 社交链接区域 */
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  flex-shrink: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   margin-left: auto;
 }
@@ -122,6 +125,7 @@
 @media (min-width: 925px) {
   .author__urls-wrapper {
     display: block;
+    margin-left: 0;
   }
 }
 
