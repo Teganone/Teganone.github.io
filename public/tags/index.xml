@@ -36,12 +36,5 @@
       <guid>//localhost:1313/tags/thoughts/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Logic</title>
-      <link>//localhost:1313/tags/logic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/logic/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

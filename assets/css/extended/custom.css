@@ -60,7 +60,8 @@
   }
 }
 
-.main .first-entry {
+.main .first-entry,
+.main .post-entry {
   display: none;
 }
 

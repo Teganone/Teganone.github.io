@@ -43,8 +43,6 @@
   </url><url>
     <loc>//localhost:1313/archives/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/logic/</loc>
-  </url><url>
     <loc>//localhost:1313/search/</loc>
   </url>
 </urlset>
