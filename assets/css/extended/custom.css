@@ -60,8 +60,10 @@
   }
 }
 
-.main .first-entry,
-.main .post-entry {
+.home-info + .first-entry,
+.home-info + .first-entry + .post-entry,
+.post-content + .first-entry,
+.post-content + .first-entry ~ .post-entry {
   display: none;
 }
 
